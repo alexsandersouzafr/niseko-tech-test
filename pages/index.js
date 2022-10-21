@@ -55,7 +55,7 @@ export default function Home() {
           ) : null}
         </div>
 
-        <div className="flex flex-col gap-8 px-1">
+        <div className="flex flex-col gap-8 px-2">
           {propertyList.length ? (
             propertyList.map((property) => (
               <PropertyCard key={property.id} property={property} />

@@ -3,7 +3,7 @@ import React from "react";
 export default function PropertyCard({ property }) {
   return (
     <div className="border p-4 border-gray-300 rounded-xl hover:bg-red-100 hover:border-red-500 hover:shadow-md transition-all">
-      <div className="flex gap-4 pb-4">
+      <div className="flex pb-4">
         <div className="flex-1 font-bold text-gray-900 text-2xl">
           {property.name}
         </div>
