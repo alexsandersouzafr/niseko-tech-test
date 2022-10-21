@@ -11,6 +11,8 @@ export default function Layout({ children }) {
       <div className="flex flex-col items-center">
         <Container className="w-full">{children}</Container>
       </div>
+
+      <Footer />
     </>
   );
 }

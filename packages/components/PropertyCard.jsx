@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PropertyCard({ property }) {
   return (
-    <div className="grid border p-4 border-gray-300 rounded-xl max-w-xl hover:bg-red-100 hover:border-red-500 hover:shadow-md transition-all">
+    <div className="border p-4 border-gray-300 rounded-xl hover:bg-red-100 hover:border-red-500 hover:shadow-md transition-all">
       <div className="flex gap-4 pb-4">
         <div className="flex-1 font-bold text-gray-900 text-2xl">
           {property.name}
@@ -12,7 +12,7 @@ export default function PropertyCard({ property }) {
         </button>
       </div>
       <div>{property.description}</div>
-      <div className="flex font-semibold gap-4">
+      <div className="font-semibold gap-4">
         <div> Bathrooms: {property.bathrooms}</div>
         <div></div>
       </div>

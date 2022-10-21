@@ -8,7 +8,7 @@ export default function Header() {
       <div className="flex flex-col w-full bg-gray-900 items-center">
         <HeaderNav />
       </div>
-      <Container className=" text-white text-5xl font-bold py-16 w-full">
+      <Container className="text-white text-5xl font-bold py-16 px-2 w-full">
         NISEKO RESORTS
       </Container>
 
