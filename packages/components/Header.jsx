@@ -8,8 +8,9 @@ export default function Header() {
       <div className="flex flex-col w-full bg-gray-900 items-center">
         <HeaderNav />
       </div>
-      <Container className="text-white text-5xl font-bold py-16 px-2 w-full">
-        NISEKO RESORTS
+      <Container className="text-white  py-16 px-2 w-full">
+        <div className="text-5xl font-bold">NISEKO RESORTS</div>
+        <div>ニセコ リゾート</div>
       </Container>
 
       <div className="flex flex-col w-full bg-gray-900 items-center">
